@@ -1,0 +1,12 @@
+en:
+  vagrant_extended_storage:
+    action:
+      create_adapter: "** Creating adapter for extended storage **"
+      create_storage: "** Creating extendeded storage **"
+      not_creating:   "** Extended Storage Volume exists, not creating **"
+      attach_storage: "** Attaching extended storage **"
+      detach_storage: "** Detaching extended storage **"
+      manage_storage: "** Managing extended storage **"
+    config:
+      not_a_bool: "A value for %{config_key} can only be true or false, not type '%{value}'"
+      not_an_array_or_string: "A value for %{config_key} must be an Array or String, not type '%{is_class}'"
